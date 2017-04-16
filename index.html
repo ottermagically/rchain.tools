@@ -1,0 +1,80 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>RChain</title>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Ek+Mukta');
+  * { box-sizing: border-box; }
+  html { font: 16pt/1.7 Ek Mukta, sans-serif; color: black; }
+  html { background: #f8f8f8; height: 100% }
+  body { min-height: 100% }
+  body { max-width: 31rem; padding: 2rem 3rem; margin: auto; }
+  body { texte-align: justify }
+  body { display: flex; align-items: center; }
+  a { text-decoration: none; }
+  a:hover { cursor: pointer; }
+
+  i.fa { font-size: 1.7rem; }
+  i.fa-github { font-size: 1.9rem; }
+  .flex-wrapper { display: flex; justify-content: center; }
+  .flex-wrapper > * { padding: 0 .4rem; }
+
+  .icon-link { line-height: 1rem; color: #cc1e46; }
+  .xxicon-link:not(:last-child) { border-right: 1px dotted #546979; }
+  .icon-link:hover { color: #808080; }
+
+  a { color: #1abc9c; }
+  a:hover { color: #808080; }
+
+
+  #box {
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 1.5rem 2.5rem;
+    border-radius: .5rem;
+  }
+
+  .link-button {
+    ecolor: #fff;
+    color: #cc1e46;
+    border: .1rem solid currentcolor;
+    font-weight: bold;
+    font-size: .8em;
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+    width: 5rem;
+    text-align: center;
+  }
+
+  .link-button:not(:first-child) { margin-left: .8rem; }
+  .link-button:hover { background-color: #808080; border-color: #808080; color: white; }
+
+  img.logo { width: 2.87rem; }
+
+  @media (max-device-width: 800px) {
+    body { padding: 2rem 0rem; }
+    img.logo { width: 5.73rem; }
+    .link-button { font-size: 1.2em; }
+    i.fa { font-size: 2rem; }
+    i.fa-github { font-size: 2.15rem; }
+  }
+
+</style>
+
+<div id="box">
+  <img class=logo src=rchain.png style="margin-right: -.5rem; position: relative; top: .2rem; right: .4rem" alt=RChain> RChain - building the scalable blockchain.
+
+  <div style="margin-top: 1.5rem; overflow: hidden">
+    <div class="flex-wrapper">
+      <a class="icon-link" href=https://ourchain.slack.com><i class="fa fa-slack"></i></a>
+      <a class="icon-link" href=https://reddit.com/r/rchain><i class="fa fa-reddit"></i></a>
+      <a class="icon-link" href=https://github.com/rchain><i class="fa fa-github"></i></a>
+    </div>
+    <div class="flex-wrapper" style="margin: 1.5rem;">
+      <a class="link-button" href="https://rchain.coop">Co-op</a>
+      <a class="link-button" href="https://rchain.io">Holdings</a>
+      <a class="link-button" href="https://oasisdex.com/#trade/W-ETH/rhoc">Market</a>
+    </div>
+  </div>
+</div>
